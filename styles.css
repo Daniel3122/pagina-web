@@ -1,0 +1,137 @@
+.texto{
+      text-align:center;
+      padding:5px;
+      margin:10px;
+    }
+  
+*{
+      padding:0;
+      margin: 0;
+      text-decoration: none;
+      list-style: none;
+      font-family: sans-serif;
+    }
+
+body{
+      background-color: #2c2c2c;
+    }
+
+a,li{
+      font-family: "Platypi", serif;
+      color: 
+  white;
+    }
+
+.logo img{
+      width: 58px;
+    }
+
+header{
+      background-color:#222;
+      display: flex;
+      justify-content:space-between;
+      align-items: center;
+      padding: 0.5rem 0.2rem;
+    }
+
+.menu ul{
+      display: flex;
+      align-items: center;
+    }
+
+.menu li{
+      margin-right: 1.5rem;
+    }
+
+.menu a:hover{
+      color: #201ce0;
+    }
+
+section{
+      width: 90%;
+      height:100vh;
+      padding:5%;
+      
+      display:flex;
+      flex-direction:column;
+      justify-content:center;
+      align-items:center;
+      color:white;
+}
+
+nav li:hover{
+    color: aliceblue;
+}
+
+#seccion-1 {
+    background:linear-gradient(rgba(5,7,12,0.75),rgba(5,7,12,0.75)), url(imagenes/4.jpeg);
+    background-repeat: no-repeat;
+    background-position: center center;
+	height: 450px;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#seccion-2 {
+    background:linear-gradient(rgba(5,7,12,0.75),rgba(5,7,12,0.75)), url(imagenes/1.jpeg);
+    background-repeat: no-repeat;
+    background-position: center center;
+	height: 450px;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#seccion-3 {
+    background:linear-gradient(rgba(5,7,12,0.75),rgba(5,7,12,0.75)), url(imagenes/2.jpeg);
+    background-repeat: no-repeat;
+    background-position: center center;
+	height: 450px;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#seccion-4 {
+    background:linear-gradient(rgba(5,7,12,0.75),rgba(5,7,12,0.75)), url(imagenes/3.jpeg);
+    background-repeat: no-repeat;
+    background-position: center center;
+	height: 450px;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+footer {
+    position: relative;
+    width: 100%;
+    background: #2a295e10;
+    min-height: 100px;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icon-elem {
+    list-style: none;
+}
+
+.icon{
+    color: aliceblue;
+    font-size: 32px;
+    display: inline-block;
+    margin: 0 10px;
+    transition: 0.5s;
+}
+
+.icon:hover {
+    transform: translateY(-10px);
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    margin: 10px 0;
+    flex-wrap: wrap;
+}
